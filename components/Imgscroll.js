@@ -53,10 +53,10 @@ const Imgscroll = () => {
   <span>
 
   </span>
-  <div className="group  pl-2 relative ">
+  <div className="group  lg:pt-0 pt-20 lg:pl-2 pl-10 relative ">
   <div className="font-bold  w-[140%] lg:w-[110%] p-5 lg:m-0 mt-20 text-white lg:text-xl text-sm bg-yellow-300 group-hover:bg-green-500  hover:font-bold rounded-full ">
   <a href={images[index].websiteUrl}  target="_blank" rel="noopener noreferrer" >View Website</a>
-    <div className="absolute w-14 h-14 bg-yellow-200  group-hover:bg-green-400 rounded-full flex items-center justify-center lg:top-[7%] lg:left-[81%] top-[58%] left-[98%]">
+    <div className="absolute w-14 h-14 bg-yellow-200  group-hover:bg-green-400 rounded-full flex items-center justify-center lg:top-[7%] lg:left-[81%] top-[73%] left-[98%]">
       <FiChevronsRight className="text-3xl font-bold relative z-10 group-hover:animate-rotated" />
     </div>
 </div>

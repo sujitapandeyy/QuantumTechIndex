@@ -19,7 +19,7 @@ const Requestt = () => {
       </h1>
        
     <div className="p-5 relative">
-      <Link href="/" className="group bg-blue-500 lg:w-[139%] md:w-[30%] w-[99%] hover:bg-yellow-500 lg:text-xl text-white font-bold pb-5 pt-4 rounded-full shadow-md flex items-center pl-3 space-x-2 transition duration-300 ease-in-out relative">
+      <Link href="/" className="group bg-blue-500 lg:w-[139%] md:w-[30%] w-[70%] hover:bg-yellow-500 lg:text-xl text-white font-bold pb-5 pt-4 rounded-full shadow-md flex items-center pl-3 space-x-2 transition duration-300 ease-in-out relative">
       <motion.span
         ref={ref}
         initial={{ opacity: 0, x: 20 }} 
