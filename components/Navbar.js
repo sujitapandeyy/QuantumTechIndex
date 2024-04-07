@@ -44,11 +44,6 @@ const Navbar = () => {
     setMenuOpen(!menuOpen);
   };
 
-  const handleLinkClick = () => {
-    // Close the menu when a link inside the menu is clicked
-    setMenuOpen(false);
-  };
-
   return (
     <div>
       <div
@@ -66,6 +61,18 @@ const Navbar = () => {
             <Image src="/logo.png" alt="logo" width={75} height={20} className="animate-rotate" />
           </Link>
 
+           {/* Navigation Links (visible on large screens or when menu is toggled) */}
+        <ul className={`lg:flex gap-12 font-bold ${menuOpen ? 'block' : 'hidden'}`}>
+          {NAV_LINKS.map((link) => (
+            <li key={link.href}>
+              <Link href={link.href}>
+                <p className="text-xl text-white hover:text-yellow-400">{link.label}</p>
+              </Link>
+            </li>
+          ))}
+         
+        </ul>
+
           {/* Menu Icon (visible on small screens) */}
           <div className="lg:hidden">
             <Image
@@ -80,7 +87,7 @@ const Navbar = () => {
         </nav>
       </div>
 
-      {/* Vertical Menu */}
+      {/* Vertical Menu for small screens */}
       {menuOpen && (
         <div
           ref={menuRef}
@@ -88,7 +95,7 @@ const Navbar = () => {
         >
           <ul className="font-bold">
             {NAV_LINKS.map((link) => (
-              <li key={link.href} className="py-4" onClick={handleLinkClick}>
+              <li key={link.href} className="py-4">
                 <Link href={link.href}>
                   <p className="text-xl text-black hover:text-yellow-400">{link.label}</p>
                 </Link>
