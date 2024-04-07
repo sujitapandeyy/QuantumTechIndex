@@ -24,8 +24,8 @@ const Service = () => {
 
   return (
     <div style={{ backgroundImage: 'url("/main3.png")' }}>
-      <section className="container mx-auto lg:flex justify-center items-center lg:h-screen lg:pt-10 pt-5">
-        <div className="  xl:w-3/5">
+      <section className="container mx-auto lg:flex justify-center items-center   pt-5 pb-5">
+        <div className="  ">
           <div className="lg:grid md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-x-20 gap-y-5">
             
             {/* Service 1 */}
@@ -36,16 +36,16 @@ const Service = () => {
               transition={{ duration: 0.5 }}
               className="relative flex justify-center items-center"
             >
-              <div className="rounded-xl p-1 shadow-xl overflow-hidden" style={{ maxWidth: '100%', maxHeight:'100%' }}>
+              <div className="rounded-xl p-3 shadow-xl overflow-hidden" style={{ maxWidth: '100%', maxHeight:'100%' }}>
                 <Image
                   src="/service1.png"
                   alt="Service 1"
                   layout="responsive"
-                  width={400}
+                  width={300}
                   height={400}
                 />
               </div>
-              <button className="absolute lg:w-[52%] top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-yellow-500 hover:bg-blue-700 text-white lg:text-md font-bold py-2 lg:px-4 rounded-full">
+              <button className="absolute lg:w-[32%] top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-yellow-500 hover:bg-blue-700 text-white lg:text-md font-bold py-2 lg:px-4 rounded-full">
                 <span className="flex items-center">Web development</span>
               </button>
             </motion.div>
@@ -58,7 +58,7 @@ const Service = () => {
               transition={{ duration: 0.5 }}
               className="relative flex justify-center items-center"
             >
-              <div className="rounded-xl p-1 shadow-xl overflow-hidden" style={{ maxWidth: '100%' , maxHeight:'100%'}}>
+              <div className="rounded-half p-3 shadow-xl overflow-hidden" style={{ maxWidth: '100%' , maxHeight:'100%'}}>
                 <Image
                   src="/service3.png"
                   alt="Service 3"
@@ -67,7 +67,7 @@ const Service = () => {
                   height={400}
                 />
               </div>
-              <button className="absolute w-[53%] top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 lg:px-4 rounded-full">
+              <button className="absolute w-[33%] top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 lg:px-4 rounded-full">
                 <span className="flex items-center">App development</span>
               </button>
             </motion.div>
@@ -85,7 +85,7 @@ const Service = () => {
               transition={{ duration: 0.5 }}
               className="relative flex justify-center items-center"
             >
-              <div className="rounded-xl p-1 shadow-xl overflow-hidden" style={{ maxWidth: '100%' , maxHeight:'100%'}}>
+              <div className="rounded p-3 shadow-xl overflow-hidden" style={{ maxWidth: '100%' , maxHeight:'100%'}}>
                 <Image
                   src="/service5.png"
                   alt="Service 5"
@@ -94,7 +94,7 @@ const Service = () => {
                   height={300}
                 />
               </div>
-              <button className="absolute w-[52%] top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-green-500 hover:bg-blue-700 text-white font-bold py-2 lg:px-4 rounded-full">
+              <button className="absolute w-[32%] top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-green-500 hover:bg-blue-700 text-white font-bold py-2 lg:px-4 rounded-full">
                 <span className="flex items-center">Machine Learning</span>
               </button>
             </motion.div>
@@ -107,7 +107,7 @@ const Service = () => {
               transition={{ duration: 0.5 }}
               className="relative flex justify-center items-center"
             >
-              <div className="rounded-xl p-1 shadow-xl overflow-hidden" style={{ maxWidth: '100%' , maxHeight:'100%'}}>
+              <div className="rounded p-3 shadow-xl overflow-hidden" style={{ maxWidth: '100%' , maxHeight:'100%'}}>
                 <Image
                   src="/service7.png"
                   alt="Service 7"
@@ -116,7 +116,7 @@ const Service = () => {
                   height={300}
                 />
               </div>
-              <button className="absolute w-[68%] top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-orange-500 hover:bg-blue-700 text-white font-bold py-2 lg:px-4 rounded-full">
+              <button className="absolute w-[38%] top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-orange-500 hover:bg-blue-700 text-white font-bold py-2 lg:px-4 rounded-full">
                 <span className="flex items-center">Wordpress Development</span>
               </button>
             </motion.div>
