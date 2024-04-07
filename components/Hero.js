@@ -51,7 +51,7 @@ const Hero = () => {
       </div>
 
       <div className="p-5 relative">
-  <Link href="/" className="group bg-blue-500 lg:w-[19.8%] md:w-[10%] sm:w-[50%] w-[100%] hover:bg-yellow-500 text-md lg:text-xl text-white font-bold p-4 rounded-full  flex items-center pl-3 space-x-2 transition duration-300 ease-in-out relative">
+  <Link href="/" className="group bg-blue-500 lg:w-[19.8%] md:w-[100%] sm:w-[100%] w-[85%] hover:bg-yellow-500 text-md lg:text-xl text-white font-bold p-4 rounded-full  flex items-center pl-3 space-x-2 transition duration-300 ease-in-out relative">
     <motion.span ref={ref}
       initial={{ opacity: 0, y: 20 }} 
       animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 20 }} 
