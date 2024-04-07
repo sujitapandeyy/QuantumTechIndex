@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -38,3 +39,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 =======
 # QuantumTechIndex
 >>>>>>> 44aae9467a2ece7f5f838d2f468a1a9ac9d68d47
+=======
+# quantumtechindex
+>>>>>>> c513fe7b0bb5a8d6a57afb5041fc93fe2b3b1e1f
