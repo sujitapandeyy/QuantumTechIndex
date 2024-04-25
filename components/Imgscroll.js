@@ -31,7 +31,7 @@ const Imgscroll = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       handleNext();
-    }, 2000);
+    }, 4000);
 
     return () => clearInterval(interval);
   }, [index]); 
@@ -63,10 +63,10 @@ const Imgscroll = () => {
 
   </div>
 </div>
-<button onClick={handlePrev} className="absolute top-[220px] left-0  text-white  focus:outline-none">
+<button onClick={handlePrev} className="absolute top-[220px] left-0   text-black focus:outline-none">
         <FiChevronsLeft size={40} />
       </button>
-      <button onClick={handleNext} className="absolute top-[220px]  right-0 text-white focus:outline-none">
+      <button onClick={handleNext} className="absolute top-[220px]  right-0 text-black focus:outline-none">
         <FiChevronsRight size={40} />
       </button>
 

@@ -2,8 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { NAV_LINKS } from '@/constants';
-import { FaInstagram, FaFacebook, FaLinkedin } from 'react-icons/fa'; // Importing icons for Instagram, Facebook, and LinkedIn from react-icons library
-
+import { FaInstagram, FaFacebook, FaLinkedin } from 'react-icons/fa'; 
 const Footer = () => {
   return (
     <>
@@ -13,17 +12,15 @@ const Footer = () => {
           <Link href="/">
             <Image src="/logo.png" alt="logo" width={75} height={20} className="animate-rotate" />
           </Link>
-          <h1 className="text-xl font-serif py-5 text-gray-300">
-            We blend our skills for web development into a powerful, agile team. Our team of designers and project managers partner with you to build forward-thinking user experiences                
-          </h1>
+          <h1 className="text-xl font-serif py-5 text-gray-300">We blend our skills for web development into a powerful, agile team. Our team of designers and project managers partner with you to build forward-thinking user experiences                </h1>
           <div className="lg:flex lg:flex-row lg:gap-5 items-center">
-  <h1 className="font-bold">Follow Us:</h1>
-  <div className="flex gap-2">
-    <a href="https://www.facebook.com/quantumc.tech/" target="_blank" rel="noopener noreferrer"><FaInstagram className="text-xl text-orange-400" /></a>
-    <a href="https://www.instagram.com/quantumc.tech/" target="_blank" rel="noopener noreferrer"><FaFacebook className="text-xl text-orange-400" /></a>
-    <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"><FaLinkedin className="text-xl text-orange-400" /></a>
-  </div>
-</div>
+            <h1 className="font-bold">Follow Us:</h1>
+            <div className="flex gap-2">
+              <a href="https://www.facebook.com/quantumc.tech/" target="_blank" rel="noopener noreferrer"><FaInstagram className="text-xl text-orange-400" /></a>
+              <a href="https://www.instagram.com/quantumc.tech/" target="_blank" rel="noopener noreferrer"><FaFacebook className="text-xl text-orange-400" /></a>
+              <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"><FaLinkedin className="text-xl text-orange-400" /></a>
+            </div>
+          </div>
 
         </div>
 
@@ -55,32 +52,32 @@ const Footer = () => {
 
 
             <div className="lg:w-1/2">
-  <h1 className="text-2xl font-bold font-serif py-3">Get In Touch</h1>
-  <div className="flex items-center">
-      
-      <Image src="/mail.png" alt="Mail icon" width={25} height={20} className="flex items-center mr-2" />
-    <div>
-      <h1 className="font-bold text-md text-gray-300 py-1 hover:text-yellow-500">Mail Us</h1>
-      <a href="mailto:sales@quantumc.tech" className="f-link font-bold text-md text-gray-300 py-1 hover:text-yellow-500">sales@quantumc.tech</a>
-    </div>
-  </div>
-  <div className="flex items-center mt-4">
-      <Image src="/location.png" alt="Location icon" width={25} height={20} className="flex items-center mt-4 mr-2"/>
-    <div>
-      <h1 className="font-bold text-md text-gray-300 py-1 hover:text-yellow-500 ">Visit Us<br/>Kathmandu, Nepal</h1>
-    </div>
-  </div>
-</div>
-</div>
+              <h1 className="text-2xl font-bold font-serif py-3">Get In Touch</h1>
+              <div className="flex items-center">
+                  
+                  <Image src="/mail.png" alt="Mail icon" width={25} height={20} className="flex items-center mr-2" />
+                <div>
+                  <h1 className="font-bold text-md text-gray-300 py-1 hover:text-yellow-500">Mail Us</h1>
+                  <a href="mailto:sales@quantumc.tech" className="f-link font-bold text-md text-gray-300 py-1 hover:text-yellow-500">sales@quantumc.tech</a>
+                </div>
+             </div>
+              <div className="flex items-center mt-4">
+              <Image src="/location.png" alt="Location icon" width={25} height={20} className="flex items-center mt-4 mr-2"/>
+               <div>
+                <h1 className="font-bold text-md text-gray-300 py-1 hover:text-yellow-500 ">Visit Us<br/>Kathmandu, Nepal</h1>
+               </div>
+             </div>
+            </div>
+          </div>
 
         </div>
       </div>
     </footer>
-      <div className="bg-gray-800 text-gray-50 text-center p-6">
-      Copyright©2020.QuantumCompilersTechnology. All rights
-          reserved
-      </div>
-      </>
+
+    <div className="bg-gray-800 text-gray-50 text-center p-6">
+       Copyright©2020.QuantumCompilersTechnology. All rights reserved
+    </div>
+  </>
   );
 };
 

@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { useInView } from 'react-intersection-observer';
-import { motion } from 'framer-motion';
 
 const Team = () => {
   const { ref, inView } = useInView({
@@ -44,15 +43,8 @@ const Team = () => {
   return (
     <>
       <section className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
-        {teamMembers.map((member, index) => (
-          <div
-            key={index}
-            ref={ref}
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 20 }}
-            transition={{ duration: 0.5, delay: index * 0.15 }}
-            className="m-4"
-          >
+        {teamMembers.map((member) => (
+          <div className="m-4" >
             <div className="relative w-40 h-40 ml-10">
               <Image
                 src={member.imageSrc}

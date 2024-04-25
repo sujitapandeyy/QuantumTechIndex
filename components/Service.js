@@ -28,7 +28,6 @@ const Service = () => {
         <div className="  ">
           <div className="lg:grid md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-x-20 gap-y-5">
             
-            {/* Service 1 */}
             <motion.div
               ref={ref1}
               initial={{ opacity: 0, y: 20 }}
@@ -45,12 +44,11 @@ const Service = () => {
                   height={400}
                 />
               </div>
-              <button className="absolute lg:w-[32%] top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-yellow-500 hover:bg-blue-700 text-white lg:text-md font-bold py-2 lg:px-4 rounded-full">
+              <button className="absolute lg:w-[32%] top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-blue-500 hover:bg-yellow-400 text-white lg:text-md font-bold py-2 lg:px-4 rounded-full">
                 <span className="flex items-center">Web development</span>
               </button>
             </motion.div>
             
-            {/* Service 3 */}
             <motion.div
               ref={ref2}
               initial={{ opacity: 0, y: 20 }}
@@ -67,7 +65,7 @@ const Service = () => {
                   height={400}
                 />
               </div>
-              <button className="absolute w-[33%] top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 lg:px-4 rounded-full">
+              <button className="absolute w-[33%] top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-blue-500 hover:bg-yellow-400 text-white font-bold py-2 lg:px-4 rounded-full">
                 <span className="flex items-center">App development</span>
               </button>
             </motion.div>
@@ -94,12 +92,11 @@ const Service = () => {
                   height={300}
                 />
               </div>
-              <button className="absolute w-[32%] top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-green-500 hover:bg-blue-700 text-white font-bold py-2 lg:px-4 rounded-full">
+              <button className="absolute w-[32%] top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-blue-500 hover:bg-yellow-400 text-white font-bold py-2 lg:px-4 rounded-full">
                 <span className="flex items-center">Machine Learning</span>
               </button>
             </motion.div>
             
-            {/* Service 7 */}
             <motion.div
               ref={ref4}
               initial={{ opacity: 0, y: 20 }}
@@ -116,7 +113,7 @@ const Service = () => {
                   height={300}
                 />
               </div>
-              <button className="absolute w-[38%] top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-orange-500 hover:bg-blue-700 text-white font-bold py-2 lg:px-4 rounded-full">
+              <button className="absolute w-[38%] top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-blue-500 hover:bg-yellow-400 text-white font-bold py-2 lg:px-4 rounded-full">
                 <span className="flex items-center">Wordpress Development</span>
               </button>
             </motion.div>
